@@ -604,7 +604,7 @@ social-link:hover,
 
 }
 
-..modal-close-btn:hover,
+.modal-close-btn:hover,
 .modal-close-btn:focus {
     border: none;
     background-color: #404bbf;
