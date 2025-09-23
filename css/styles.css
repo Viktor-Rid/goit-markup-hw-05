@@ -758,6 +758,7 @@ textarea::placeholder {
 }
 
 .modal-form-checkbox-label {
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -774,7 +775,7 @@ textarea::placeholder {
 }
 
 .checkbox-span {
-    display: flex;
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -789,3 +790,5 @@ textarea::placeholder {
 
 
 }
+
+.modal-input-wrapper-checkbox
