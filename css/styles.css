@@ -731,16 +731,11 @@ textarea::placeholder {
 }
 
 
-/* ----button send---- */
+/* ----button send modal form--- */
 .modal-form-submit-button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
     display: block;
     min-width: 169px;
+    padding: 16px 32px;
     margin: 0 auto;
     font-weight: 500;
     font-size: 16px;
@@ -748,10 +743,20 @@ textarea::placeholder {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+.modal-form-submit-button:hover,
+.modal-form-submit-button:focus {
+    background-color: #404bbf;
+}
+
+
 
 
 /* ====== footer ====== */
@@ -881,13 +886,6 @@ textarea::placeholder {
     letter-spacing: 0.04em;
     color: #fff;
 }
-
-
-
-
-
-
-
 
 .subscribe-button {
     display: flex;
