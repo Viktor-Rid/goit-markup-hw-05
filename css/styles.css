@@ -905,7 +905,7 @@ textarea::placeholder {
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
